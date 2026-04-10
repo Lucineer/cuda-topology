@@ -2,7 +2,12 @@
 name = "cuda-topology"
 version = "0.1.0"
 edition = "2021"
-description = "Fleet topology — graph-based network analysis, shortest paths, clustering, centrality, and agent connectivity mapping"
+description = "Graph analysis — shortest path, clustering, communities"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-topology"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
