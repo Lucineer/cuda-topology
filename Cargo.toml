@@ -1,0 +1,8 @@
+[package]
+name = "cuda-topology"
+version = "0.1.0"
+edition = "2021"
+description = "Fleet topology — graph-based network analysis, shortest paths, clustering, centrality, and agent connectivity mapping"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
